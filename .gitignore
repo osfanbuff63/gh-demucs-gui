@@ -2,5 +2,6 @@
 __pycache__/
 build/
 dist/
+.venv
 /*.spec
 res/drum_split/modelo_final.th

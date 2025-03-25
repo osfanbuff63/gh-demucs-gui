@@ -1,10 +1,10 @@
-# PLEASE NOTE
-**THIS PROGRAM IS DISCONTINUED. I DO NOT HAVE ANY PLANS TO SUPPORT THIS VERSION OF THE PROGRAM; I WILL BE WORKING ON A REMAKE SOON. IF YOU INSIST ON CONTINUING TO USE THIS PROGRAM, YOU ARE RESPONSIBLE FOR TROUBLESHOOTING ANY ISSUES THAT MAY ARISE WITH THIS PROGRAM.**
 
--------------------------------------------------
+<!-- markdownlint-disable-file MD003 -->
+This is a fork of the [original gh-demucs-gui by IMF24](https://github.com/IMF24/gh-demucs-gui), updated by osfanbuff63. <!-- markdownlint-disable MD041 -->
+---
 
-![](res/logo.png)
-![](res/imf_okt_logo.png)
+![GH Demux GUI logo](res/logo.png)
+![Made by IMF24](res/imf_okt_logo.png)
 
 # GH Demucs GUI
 
@@ -23,12 +23,14 @@ To set up everything for use, **run the** `install.bat` **file in the folder FIR
 **You will need to say Yes (type "Y" or "y") to the uninstall prompt for Torch!** You need that if you want to use CUDA (your graphics card) for splitting audio.
 
 **If you want the drum splitting to work, you need to install** `drumsep` **separately!** To add in `drumsep` for use with the program:
+
 1. Create a `drum_split` folder in the `res` folder.
 2. [Download the model file from this link](https://drive.google.com/uc?export=download&id=1g9dD68Fhn-fvTFHRApgFy8bsHUsYJD9o) and place it inside of the `drum_split` folder.
 
-### More documentation coming soon...
+*More documentation coming soon...*
 
-# Credits
-- Made by [IMF24](https://youtube.com/@IMF24), Help from [Oktoberfest](https://youtube.com/@oktoberfesttheenthusiast)
+## Credits
+
+- Originally made by [IMF24](https://youtube.com/@IMF24), with help from [Oktoberfest](https://youtube.com/@oktoberfesttheenthusiast). Updated by osfanbuff63.
 - [Demucs Audio Separation](https://github.com/facebookresearch/demucs) by [Meta Platforms, Inc.](https://meta.com), [MIT License](./LICENSE)
 - [drumsep](https://github.com/inagoy/drumsep) Separation Model by [inagoy](https://github.com/inagoy)
